@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project2"
+        android:usesCleartextTraffic="true"
+        android:requestLegacyExternalStorage="true"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".JoinActivity"/>
+        <activity android:name=".Forget.ForgetActivity"/>
+        <activity android:name=".Forget.ForgetId"/>
+        <activity android:name=".Forget.ForgetPw"/>
+        <activity android:name=".Forget.FindId"/>
+        <activity android:name=".Forget.FindPw"/>
+        <activity android:name=".MyPage.UserEdit"/>
+        <activity android:name=".Account.ConfirmPw"/>
+        <activity android:name=".Account.FindPw2"/>
+        <activity android:name=".Board.BoardWrite"/>
+        <activity android:name=".Board.BoardView"/>
+        <activity android:name=".Board.BoardEdit"/>
+        <activity android:name=".Board.CommentList"/>
+        <activity android:name=".Board.CommentEdit"/>
+        <activity android:name=".Board.LikeList"/>
+        <activity android:name=".Board.ReplyList"/>
+        <activity android:name=".Board.ReplyEdit"/>
+        <activity android:name=".Board.CommentDeleteDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Board.ReplyDeleteDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Home.MakeWorkspaceDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Home.WorkSpaceActivity"/>
+        <activity android:name=".Home.MakeListDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Home.MakeCardDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".A.Test"/>
+        <activity android:name=".Home.CardView"/>
+        <activity android:name=".Home.CardPosEdit"/>
+        <activity android:name=".Home.EditListActivity"/>
+        <activity android:name=".Home.EditPositionActivity"/>
+        <activity android:name=".Chat.ChatActivity"/>
+        <activity android:name=".Chat.ChatUserList"/>
+        <activity android:name=".Chat.MakeChatRoomDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Chat.AddChatUserList"/>
+        <activity android:name=".Home.LabelActivity"/>
+        <activity android:name=".Home.AddLabelActivity"/>
+        <activity android:name=".Home.EditLabelActivity"/>
+        <activity android:name=".Home.CalendarActivity"/>
+        <activity android:name=".Home.CoverActivity"/>
+        <activity android:name=".Home.AttachDeleteDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Home.CardCommentDeleteDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Home.BoardMenu"/>
+        <activity android:name=".Home.CopyBoard"/>
+        <activity android:name=".Home.ListCopy"/>
+        <activity android:name=".Home.BoardListActivity"/>
+        <activity android:name=".Home.ListPositionActivity"/>
+        <activity android:name=".Home.ListMoveActivity"/>
+        <activity android:name=".Home.ListSort"/>
+        <activity android:name=".Home.MoveAllCard"/>
+        <activity android:name=".Home.ArchiveAllCardDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Home.ArchiveListDialog"
+            android:theme="@android:style/Theme.Material.Light.Dialog.NoActionBar"/>
+        <activity android:name=".Home.ArchivedItem"/>
+        <activity android:name=".Home.ArchiveListList"/>
+        <activity android:name=".Home.ArchiveCardList"/>
+        <activity android:name=".Home.ImageActivity"/>
+        <activity android:name=".Home.BoardCardList"/>
+        <activity android:name=".Home.Mp4Activity"/>
+        <activity android:name=".Home.ScanActivity"/>
+        <activity
+            android:name=".Home.ViewerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.CroppingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Home.CameraActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

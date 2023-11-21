@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <!-- The following View represent the content. Note the margin -->
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:scaleType="center"
+        android:layout_marginHorizontal="5dp"/>
+    <ImageButton
+        android:id="@+id/delete_button"
+        android:layout_height="20dp"
+        android:layout_width="20dp"
+        android:layout_gravity="top|right"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        android:background="#ff0000"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        />
+</FrameLayout>
